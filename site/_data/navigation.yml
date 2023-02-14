@@ -4,10 +4,10 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Blog'
+    - title: 'Research'
       url: '/blog/'
+    - title: 'Projects'
+      url: '/projects/'  
     - title: 'About Me'
       url: '/about/'
     #- title: 'Pages'
