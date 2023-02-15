@@ -11,7 +11,7 @@ menu__settings:
     - title: 'About Me'
       url: '/about/'
     - title: 'CV'
-      url: '{{ site.data.general_settings.cv-path }}'
+      url: '/cv.pdf'
     #- title: 'Pages'
     #  submenu:
     #  - url: '/about/'
