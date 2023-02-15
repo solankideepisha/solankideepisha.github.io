@@ -1,5 +1,11 @@
 <!-- begin contact -->
 {% assign c = "c-contact-form" %}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     <script>
+       function onSubmit(token) {
+         document.getElementById("demo-form").submit();
+       }
+</script>
 <div class="{{c}}" id="contact">
   <div class="container">
     <div class="row">
@@ -28,8 +34,8 @@
               <textarea class="{{c}}__form-input" id="form-text" name="text" rows="9" placeholder="Your message..."
                 required></textarea>
             </div>
-            <div class="{{c}}__form-group {{c}}__form-group--button">
-              <button class="c-button c-button--primary c-button--large" type="submit">{{ include.form_button_text }}</button>
+            <div class="{{c}}__form-group {{c}}__form-group--button ">
+              <button class="c-button c-button--primary c-button--large g-recaptcha" type="submit" data-sitekey="{{ include.google_recaptcha_v2_site_key }}" data-callback="onSubmit">{{ include.form_button_text }}</button>
             </div>
           </form>
         </div>
