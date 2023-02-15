@@ -10,6 +10,8 @@ menu__settings:
       url: '/projects/'  
     - title: 'About Me'
       url: '/about/'
+    - title: 'CV'
+      url: '/images/logo.svg'
     #- title: 'Pages'
     #  submenu:
     #  - url: '/about/'
