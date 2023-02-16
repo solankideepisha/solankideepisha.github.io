@@ -23,7 +23,10 @@ content_blocks:
       <blockquote><p>
         I am a sucker for novelty, so I really enjoy trying out new things, learning new skills and going on new adventures.
       </p></blockquote>
-      <p></p>
+      <p>
+        {% include image-gallery.html folder="/images/about_me_gallery" %}
+      </p>
+
   #- _bookshop_name: newsletter
    # newsletter_title: Join my mailing list
    # newsletter_description: Get inspiration, updates and, cool stuff!
@@ -32,3 +35,4 @@ content_blocks:
    # newsletter_button: Subscribe
 ---
 
+{% include image-gallery.html folder="/images/about_me_gallery" %}
