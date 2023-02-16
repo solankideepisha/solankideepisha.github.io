@@ -1,0 +1,9 @@
+[component]
+structures = [ "content_blocks" ]
+label = "Image Gallery"
+description = "Image Gallery"
+icon = "wysiwyg"
+tags = ["Text"]
+
+[props]
+folder="/images/about_me_gallery"
