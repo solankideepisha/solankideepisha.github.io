@@ -47,9 +47,7 @@ transform: scale(1.05);
 }
 }
 
-span {
-    text-align: center;
-}
+
 
 }
 
@@ -59,4 +57,10 @@ span {
     padding: 10px;
     margin: 2px;
     border-radius: 8px;
+
+    a{ 
+        span {
+            text-align: center;
+        }
+    }
 }
