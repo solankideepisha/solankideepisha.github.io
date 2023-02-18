@@ -8,5 +8,5 @@ Under the supervision of my advisor, Prof William Menasco, I have been working w
 Here's a piece of code I wrote for the engineering team. If you input co-prime numbers p and q, the code spits out a Legendrian parametrisation of a rational knot defined by (p,q).
 
 
-#![Sea](/images/image-example-4.jpg){: width="1200" height="900"}
+![Sea](/images/image-example-4.jpg){: width="1200" height="900"}
 
