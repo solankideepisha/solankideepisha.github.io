@@ -3,7 +3,7 @@ title:  Markdown Cheat Sheet
 description: This is a markdown cheat sheet
 date:   2023-02-14 15:01:35 +0300
 image:  '/images/post-1.jpg'
-tags:   [Markdown Cheat Sheet, notes]
+tags:   [Markdown-Cheat-Sheet, notes]
 ---
 
 
