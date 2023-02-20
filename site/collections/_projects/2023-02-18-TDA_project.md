@@ -1,3 +1,4 @@
+---
 date: 2023-02-18 05:20:35 +0300
 title: TDA Project
 subtitle: Using TDA to study aerosol data and better predict climate models
