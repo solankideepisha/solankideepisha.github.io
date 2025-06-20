@@ -50,3 +50,23 @@ Run the website:
 ~~~bash
 $ npm start
 ~~~
+
+## Docker
+
+To run the project in a Docker container for local development (with hot-reload) without creating a tagged image:
+
+```bash
+docker run --rm -it -p 4000:4000 -v $(pwd):/usr/src/app -w /usr/src/app --pull=always --name web-dev $(docker build -q .) 
+```
+
+Then open [http://localhost:4000](http://localhost:4000) in your browser.
+
+## Docker Compose
+
+To run the project using Docker Compose (recommended for simplicity):
+
+```bash
+docker compose up
+```
+
+This will build the image if needed and start the development server with hot-reload. Open [http://localhost:4000](http://localhost:4000) in your browser.

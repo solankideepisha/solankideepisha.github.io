@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "6086:6086"
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    command: sh -c "npm install && cd site && bundle install && cd .. && npm start"
